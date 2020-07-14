@@ -1,0 +1,330 @@
+.container{
+    display : flex;
+    margin-top: 10px;
+    margin-bottom: 12px
+}
+
+.container div{
+    text-align: center;
+    width: 33%;
+    flex-shrink: 1
+}
+
+#phone-logo{
+font-size: 20px
+
+}
+
+#select-location{
+    padding-top: 10px
+}
+
+#select-location select{
+    border-radius: 10px;
+    width: 25%
+}
+
+
+#logo{
+    text-align: center;
+    /* height: 20%; */
+    background-color: #b9adad;
+    opacity: 1;
+
+
+}
+
+
+.container_2{
+    display : flex;
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: center
+}
+
+.container_2 div{
+ flex-shrink: 1;
+ box-sizing: border-box;
+ 
+} 
+
+#select-car{
+    width: 100%;
+    text-align: center
+  
+}
+
+#select-car select{
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    width: 50%
+
+}
+
+#enter-mobile-number{
+    text-align: center;
+    margin-top: 5px;
+    width: 100%
+    
+
+
+}
+#enter-mobile-number input{
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    width: 48.1%;
+
+}
+
+
+#enter-mobile-number + div{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px
+
+}
+
+#enter-mobile-number + div button{
+    padding: 10px;
+    font-size: 20px;
+    width: 50.2%;
+    background-color: #ff00009c;
+    color: white;
+    color: whitr;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.container_3{
+    display : flex;
+    /* margin-top: 5px;
+    flex-direction: column;
+    align-items: center */
+}
+.container_3 #rating{
+    text-align: right
+
+
+}
+
+
+.review{
+    font-size: 22px;
+    font-weight: 700;
+    color: gray;
+}
+
+.vertical{
+    border-right: 1px solid gray;
+    height: 69%;
+    margin-right: 52%;
+    margin-top: 14px;
+    color: gray;
+}
+
+#repaired p:first-child{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 8%;
+
+}
+
+#repaired p:nth-child(2){
+    margin-left: -3%;
+    font-size: 25px;
+    font-weight: 800;
+    color: gray;
+    margin-top: -2%
+
+}
+
+
+#repaired p:nth-child(3){
+    margin-left: 8%;
+    font-size: 25px;
+    font-weight: 800;
+    color: gray;
+    margin-top: -2%
+
+}
+
+
+.hr{
+    border-bottom: 2px solid red;
+    width: 12%;
+    margin-left: 25%;
+    margin-top: 14px;
+
+
+}
+
+
+
+.container_4{
+    display : flex;
+    margin-top: 5px;
+    flex-direction: column;
+}
+
+.container_4 h1{
+    margin-left: 25%
+
+
+
+}
+
+
+.container_4 p{
+    margin-left: 25%;
+    width: 54%;
+    font-size: 25px;
+    color: gray;
+    margin-top: 2%
+
+}
+
+.container_5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 56%;
+    margin: auto;
+    justify-content: space-evenly
+
+}
+
+.container_5 div{
+    width: 31%;
+    height:250px;
+    margin-top: 5px;
+    
+}
+
+.child{
+    display: flex;
+    margin: auto
+
+}
+
+.child div:first-child{
+    width: 267px;
+       height: 38vh; background-color: gray;
+       position: relative;
+       opacity: 0.5
+
+}
+
+.child div:nth-child(2){
+    max-width: 267px;
+       height: 38vh; 
+       
+   
+
+}
+
+.child i{
+    font-size: 20p;
+    font-size: 62px;
+    position: absolute;top: 82px;left:93px;
+    color: red
+
+}
+
+
+.child h2{
+    margin-left: 35px; 
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 2%;
+
+}
+
+.importent{
+    
+    margin-left: 35px; 
+    font-size: 25px;
+    margin-top: 2%;
+    display: block
+
+
+}
+
+#brand span:first-child{
+    margin-right: 2%;
+    display: inline-block;
+    margin-left: 23%;
+    font-weight: bolder;
+    font-size: 37px;
+}
+
+
+#brand span:nth-child(2){
+    
+    display: inline-block;
+
+   
+    font-size: 37px;
+}
+
+.container_6{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    margin-top: 60px
+}
+
+#logo_car{
+    margin-left: 280px
+}
+
+#logo_car p{
+    color: white;
+    font-size: 45px;
+    display: inline-block;
+    font-weight: 700
+
+}
+
+#adderss{
+    margin-left: 280px;
+    max-width: 57%;
+    line-height: 39px;
+    margin-top: -43px;
+
+}
+
+
+
+#phone-deteials{
+    margin-left: 280px;margin-top: -15px
+
+}
+
+
+#phone-deteials p{
+    color: white;font-size: 30px
+
+}
+
+#phone-deteials span:first-child{
+    margin-right: 10px
+
+}
+
+#phone-deteials span:nth-child(2){
+    margin-right:45px
+
+}
+
+
+
+
+
+
+
+
